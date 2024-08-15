@@ -38,8 +38,6 @@ export interface IUser {
 	provider?: string;
 	active?: boolean;
 	verified?: boolean;
-	createdAt: Date;
-	updatedAt: Date;
 	__v: number;
 	id: string;
 }
